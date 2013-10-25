@@ -6,13 +6,21 @@ Plugin could work with multiple elements of «textarea» or «input type=text».
 
 This plugin has seven functions:
 
-	getSelection – return start, end position, length of the selected text and the selected text. return start=end=caret position if text is not selected;
+	getSelection – return start, end position, length of the selected text and the selected text. 
+	return start=end=caret position if text is not selected;
+	
 	replaceSelection – replace selected text with a given string;
+	
 	setSelection – select text in a given range (startPosition and endPosition);
+	
 	countCharacters – count amount of all characters;
+	
 	insertAtCaretPos – insert text at current caret position;
+	
 	setCaretPos – set cursor at caret position (1 = beginning, -1 = end);
-	setMaxLength – set maximum length of input field. Also provides callback function if limit is reached. Note: The function has to have a number as input. Positive value for setting of limit and negative number for removing of limit.
+	
+	setMaxLength – set maximum length of input field. Also provides callback function if limit is reached.
+	Note: The function has to have a number as input. Positive value for setting of limit and negative number for removing of limit.
 
 ### Syntaxes:
 
